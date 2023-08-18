@@ -1,0 +1,25 @@
+/* MOVILES */
+@media screen and (min-width: 360px) and (max-width: 479px){
+    main {
+        justify-content: center;
+        height: 500px;
+    }
+    .img {
+        display: none;
+    }
+    .iniciar-sesion {
+        width: 100%;
+    }
+    .form {
+        width: 90%;
+        height: 400px;
+    }
+    #inicio {
+        font-size: 18px;
+        letter-spacing: 5px;
+    }
+}
+/* TABLETS */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    
+}

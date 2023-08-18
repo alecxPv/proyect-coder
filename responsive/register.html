@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/register-phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300&display=swap" rel="stylesheet">
+    <title>CODER - Registro</title>
+</head>
+<body>
+  <header>
+    <nav class="menu-nav">
+      <a href="index-landing.html"><img src="imagenes/logo-coder.webp" alt="logo-coder"></a>
+      <ul class="enlaces">
+        <li><a href="index-landing.html">INICIO</a></li>
+        <li><a href="cursos.html">CURSOS</a></li>
+        <li><a href="certificaciones.html">CERTIFICADOS</a></li>
+        <li><a id="boton" href="login.html">INICIAR SESION</a></li>
+      </ul>
+    </nav> 
+  </header>
+  <main>
+    <section class="contenedor img">
+      <img id="img-register" src="imagenes/img-resgister.webp" alt="img-register">
+    </section>
+    <section class="contenedor registro">
+      <div class="form">
+        <h2>📑 Registro</h2>
+        <p class="p1">Regístrate para ingresar a nuestra plataforma</p>
+        <form name="registro" method="post" action="procesar.php">
+            <div class="grid">
+                <input class="input" type="text" name="Nombre" placeholder="Nombre">
+                <input class="input" type="text" name="Apellidos" placeholder="Apellidos">
+            </div>
+            <input class="input" type="text" name="Usuario" placeholder="Usuario">
+            <input class="input" type="number" name="Teléfono" placeholder="Telefono">
+            <input class="input" type="password" name="Contraseña" placeholder="Contraseña">
+            <button id="registro">Registrarse</button>
+        </form>
+        <p class="p2">¿Ya esta registrado? <a href="login.html">Iniciar Sesión</a></p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="conten-footer">
+      <section class="cont-redes">
+        <p id="seguir">Siguenos en:</p>
+        <figure class="redes">
+            <img src="imagenes/icons8-facebook-48.png" alt="facebook">
+            <img src="imagenes/icons8-twitter-48.png" alt="twitter">
+            <img src="imagenes/icons8-instagram-48.png" alt="instagram">
+        </figure>
+      </section>
+      <section class="cont-pagos">
+        <p>Formas de pago</p>
+        <p>Paga con tarjeta de <br>credito o debito</p>
+        <figure class="med-pagos">
+            <img src="imagenes/icons8-visa-48.png" alt="visa">
+            <img src="imagenes/icons8-mastercard-48.png" alt="mc">
+            <img src="imagenes/icons8-american-express-48.png" alt="ea">
+            <img src="imagenes/stripe.png" alt="stripe">
+            <img src="imagenes/icons8-paypal-48.png" alt="paypal">
+            <img src="imagenes/icons8-bank-48.png" alt="banco">
+        </figure>
+      </section>
+    </div>
+  </footer>   
+</body>
+</html>

@@ -1,0 +1,132 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Khand', sans-serif;;
+}
+header {
+    background-color: #0A0A23;
+    width: 100%;
+    max-width: 1300px;
+    overflow: hidden;
+}
+.menu-nav {
+    margin: 0px 50px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.menu-nav img{
+    height: 90px;
+    width: 155px;
+}
+.enlaces li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 35px;
+}
+.enlaces a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#boton {
+    height: 27px;
+    width: 144px;
+    background-color: #FFFF01;
+    color: #000;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* MAIN */
+main {
+    background-color: #1B1B32;
+    width: 100%;
+    max-width: 1300px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+h1 {
+    letter-spacing: 25px;
+    color: #fff;
+}
+.contenedor {
+    width: 650px;
+    height: 230px;
+    background-color: #D9D9D9;
+    margin-top: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.contenedor img {
+    width: 150px;
+    height: 140px;
+    margin-left: 25px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.right h3 {
+    text-align: center;
+}
+.cont-temas {
+    display: flex;
+    gap: 50px;
+}
+/* FOOTER */
+footer {
+    width: 100%;
+    max-width: 1300px;
+    background-color: #27282D;
+    color: #fff;
+    overflow: hidden;
+}
+.conten-footer {
+    margin: 0px 50px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.cont-redes {
+    display: flex;
+}
+.redes {
+    display: flex;
+    gap: 10px;
+    margin-left:20px;
+}
+.redes img{
+    width: 30px;
+    height: 30px;
+}
+.cont-pagos {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.med-pagos {
+    gap: 10px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.med-pagos img {
+    width: 30px;
+    height: 30px;
+}
+
+

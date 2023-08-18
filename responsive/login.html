@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagenes/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/login-phone.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Khand:wght@300&display=swap" rel="stylesheet">
+    <title>CODER - Login</title>
+</head>
+<body>
+  <header>
+    <nav class="menu-nav">
+      <a href="index-landing.html"><img src="imagenes/logo-coder.webp" alt="logo-coder"></a>
+      <ul class="enlaces">
+        <li><a href="index-landing.html">INICIO</a></li>
+        <li><a href="cursos.html">CURSOS</a></li>
+        <li><a href="certificaciones.html">CERTIFICADOS</a></li>
+        <li><a id="boton" href="#">INICIAR SESION</a></li>
+      </ul>
+    </nav> 
+  </header>
+  <main>
+    <section class="contenedor img">
+      <img src="imagenes/img-login.webp" alt="img-login">
+    </section>
+    <section class="contenedor iniciar-sesion">
+      <div class="form">
+        <h1>🔒 Iniciar Sesion</h1>
+        <form name="inicio" method="post" action="procesar.php">
+          <input class="input" type="text" name="Usuario" placeholder="Usuario">
+          <input class="input" type="password" name="Contraseña" placeholder="Contraseña">
+          <button id="inicio">Iniciar Sesion</button>
+        </form>
+        <p>¿No te haz registrado? <a href="register.html">Create una cuenta</a></p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="conten-footer">
+      <section class="cont-redes">
+        <p id="seguir">Siguenos en:</p>
+        <figure class="redes">
+            <img src="imagenes/icons8-facebook-48.png" alt="facebook">
+            <img src="imagenes/icons8-twitter-48.png" alt="twitter">
+            <img src="imagenes/icons8-instagram-48.png" alt="instagram">
+        </figure>
+      </section>
+      <section class="cont-pagos">
+        <p>Formas de pago</p>
+        <p>Paga con tarjeta de <br>credito o debito</p>
+        <figure class="med-pagos">
+            <img src="imagenes/icons8-visa-48.png" alt="visa">
+            <img src="imagenes/icons8-mastercard-48.png" alt="mc">
+            <img src="imagenes/icons8-american-express-48.png" alt="ea">
+            <img src="imagenes/stripe.png" alt="stripe">
+            <img src="imagenes/icons8-paypal-48.png" alt="paypal">
+            <img src="imagenes/icons8-bank-48.png" alt="banco">
+        </figure>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
